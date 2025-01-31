@@ -9,6 +9,7 @@
 
 [![Lifecycle:
 experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://lifecycle.r-lib.org/articles/stages.html#experimental)
+[![](https://cranlogs.r-pkg.org/badges/ggfootball)](https://cran.r-project.org/package=ggfootball)
 <!-- badges: end -->
 
 ## Overview
@@ -24,11 +25,11 @@ plots:
 
 ## Installation
 
-You can install the development version of ggfootball from
-[GitHub](https://github.com/) with:
+You can install ggfootball from
+[CRAN](https://cran.r-project.org/package=ggfootball) with:
 
 ``` r
-pak::pak("aymennasri/ggfootball")
+install.packages("ggfootball")
 ```
 
 ## Example
@@ -41,7 +42,8 @@ xg_chart(match_id = 26631,
          home_team_color = "red", 
          away_team_color = "grey", 
          competition = "Premier League",
-         background_color = "#FFF1E5")
+         bg_color = "#FFF1E5",
+         plot_bg_color = "#FFF1E5")
 
 # Shot/xG map
 xg_map(match_id = 26631, title = "xG Map")

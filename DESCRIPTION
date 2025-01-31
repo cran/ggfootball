@@ -1,6 +1,6 @@
 Package: ggfootball
-Title: Plotting Expected Goals (xG) Stats with Understat Data
-Version: 0.1.0
+Title: Plotting Expected Goals (xG) Stats with 'Understat' Data
+Version: 0.2.0
 Authors@R: 
     person("Aymen", "Nasri", , "aymennasrii@proton.me", role = c("aut", "cre", "cph"))
 Description: Scrapes shots data from 'Understat' <https://understat.com/> and visualizes it using interactive plots:
@@ -15,8 +15,8 @@ Imports: base64enc, dplyr (>= 1.0.0), gdtools, gfonts, ggiraph,
 URL: http://aymennasri.me/ggfootball/
 BugReports: https://github.com/aymennasri/ggfootball/issues
 NeedsCompilation: no
-Packaged: 2025-01-29 09:12:16 UTC; aymen
+Packaged: 2025-01-31 12:40:31 UTC; aymen
 Author: Aymen Nasri [aut, cre, cph]
 Maintainer: Aymen Nasri <aymennasrii@proton.me>
 Repository: CRAN
-Date/Publication: 2025-01-30 18:40:02 UTC
+Date/Publication: 2025-01-31 15:20:10 UTC
